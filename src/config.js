@@ -4,6 +4,9 @@ const fs = require('fs');
 module.exports = {
     //// HOSTING CONFIGURATION ////
 
+    // TRUE IF LOADING BEHIND REVERSE PROXY
+    reverseProxy: true,
+    
     bindingAddress: '127.0.0.1',
     port: 8080,
     crossDomainPort: 8081,
