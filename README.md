@@ -1,4 +1,9 @@
-# rammerhead
+# rammerhead-heroku
+
+## Rammerhead Proxy, changed to work on Heroku and Replit deploy. Please report any errors to me:
+> Discord EnderKingJ#0001
+
+## Thanks to OlyB for the name idea.
 
 > proxy based on testcafe-hammerhead (password is `sharkie4life`)
 
