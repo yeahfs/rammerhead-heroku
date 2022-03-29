@@ -1,4 +1,4 @@
-require('dotenv-flow').config();
+//require('dotenv-flow').config();
 
 const exitHook = require('async-exit-hook');
 const RammerheadProxy = require('../classes/RammerheadProxy');
