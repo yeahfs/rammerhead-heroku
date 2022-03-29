@@ -9,6 +9,12 @@ const setupRoutes = require('./setupRoutes');
 const setupPipeline = require('./setupPipeline');
 const RammerheadLogging = require('../classes/RammerheadLogging');
 
+if (config.reverseProxy) {
+    config.getServerInfo = (req) => {
+        return { hostname: new URL('http://' + req.headers.host).hostname, port: 443, crossDomainPort: config.crossDomainPort, protocol: 'https: };
+    },
+}
+
 const logger = new RammerheadLogging({
     logLevel: config.logLevel,
     generatePrefix: config.generatePrefix
