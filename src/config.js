@@ -7,7 +7,7 @@ module.exports = {
     // TRUE IF LOADING BEHIND REVERSE PROXY
     reverseProxy: true,
     
-    bindingAddress: 'localhost',
+    bindingAddress: '0.0.0.0',
     port: process.env.PORT||8080,
     crossDomainPort: process.env.CD_PORT||8081,
     publicDir: path.join(__dirname, '../public'), // set to null to disable
