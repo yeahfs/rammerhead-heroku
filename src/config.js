@@ -32,7 +32,7 @@ module.exports = {
     disableLocalStorageSync: false,
 
     // restrict sessions to be only used per IP
-    restrictSessionToIP: true,
+    restrictSessionToIP: false,
 
     //// REWRITE HEADER CONFIGURATION ////
 
