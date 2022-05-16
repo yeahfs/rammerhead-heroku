@@ -36,6 +36,7 @@
     "prettier": "^2.3.2"
   },
   "devDependencies": {
+    "@architect/sandbox": "^5.2.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "npm-force-resolutions": "0.0.10",
