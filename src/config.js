@@ -23,7 +23,7 @@ module.exports = {
     },
 
     // enforce a password for creating new sessions. set to null to disable
-    password: undefined,
+    password: astral12,
 
     // disable or enable localStorage sync (turn off if clients send over huge localStorage data, resulting in huge memory usages)
     disableLocalStorageSync: false,
